@@ -1,7 +1,12 @@
 def main():
-    print("Hello from basics-of-git!")
-    print("This is a simple Python script to demonstrate basic Git operations.")
-    print("You can modify this script and commit your changes to see how Git tracks them.")
-    
+    number = 10
+    factorial = 1
+
+    for value in range(1, number + 1):
+        factorial *= value
+
+    print(f"Factorial of {number} is {factorial}")
+
+
 if __name__ == "__main__":
     main()
