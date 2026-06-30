@@ -1,7 +1,12 @@
 def main():
-    print("Hello from basics-of-git!")
-    print("This is a simple Python script to demonstrate basic Git operations.")
-    print("You can modify this script and commit your changes to see how Git tracks them.")
-    
+    fibonacci_series = [0, 1]
+
+    while len(fibonacci_series) < 10:
+        fibonacci_series.append(fibonacci_series[-1] + fibonacci_series[-2])
+
+    print("First 10 Fibonacci numbers:")
+    print(fibonacci_series)
+
+
 if __name__ == "__main__":
     main()
